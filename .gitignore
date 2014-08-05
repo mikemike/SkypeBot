@@ -1,54 +1,62 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
-bin/
-build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-
-# Translations
+*.pyc
+*.pyo
 *.mo
-
-# Mr Developer
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+build
+downloads/*
+eggs/*
+fake-eggs/*
+parts/*
+develop-eggs
+dist
+.installed.cfg
 .mr.developer.cfg
+.hg
+.bzr
+.svn
+*.pyc
+*.pyo
+*.LCK
+*.lck
+*~
+*.bak
+.coverage
+*.pyd
+*.so
+*.orig
+*.rej
+__minitage__*
+.metadata
+.secret.cfg
+.settings
 .project
 .pydevproject
+*.status
 
-# Rope
-.ropeproject
+jsdoc*
+releases
 
-# Django stuff:
-*.log
-*.pot
+.DS_Store
+docs/build/*
 
-# Sphinx documentation
-docs/_build/
+*.min.js
+*.min.css
+*.debug.css
+*.db
+*.jar
+.vvv
+venv
+venv-py2
+__pycache__
+virtualenv.py
+tests/test-installation-environment
+settings.py
+Skype4Py
 
+.vagrant
+.idea
+logs/*
+*.tmp
